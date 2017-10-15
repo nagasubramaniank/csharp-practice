@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Clone a linked list with random references.
+
+using System;
 
 namespace DataStructures
 {

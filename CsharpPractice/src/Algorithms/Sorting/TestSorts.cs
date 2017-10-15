@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Test all sorting implementations.
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;

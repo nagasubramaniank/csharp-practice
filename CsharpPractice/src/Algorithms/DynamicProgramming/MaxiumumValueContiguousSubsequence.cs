@@ -46,8 +46,8 @@ namespace Algorithms
                 }
             }
 
-            printSequence($"Sequence: ", sequence, 0, sequence.Length - 1);
-            printSequence($"Maximum Value Contiguous Subsequence: ", sequence, maxAllStartIndex, maxAllEndIndex);
+            printSequence("Sequence: ", sequence, 0, sequence.Length - 1);
+            printSequence("Maximum Value Contiguous Subsequence: ", sequence, maxAllStartIndex, maxAllEndIndex);
         }
 
         private static void printSequence(string prefix, int[] sequence, int startIndex, int endIndex)

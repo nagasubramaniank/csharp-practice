@@ -1,4 +1,6 @@
-﻿using System;
+﻿// 3-way quick sort algorithm.
+
+using System;
 
 namespace Algorithms
 {

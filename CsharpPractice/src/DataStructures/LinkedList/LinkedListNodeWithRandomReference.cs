@@ -22,7 +22,7 @@ namespace DataStructures
             for (LinkedListNodeWithRandomReference<T> node = this; node != null; node = node.next)
             {
                 string randomeNodeValue = node.random == null ? "N" : node.random.value.ToString();
-                stringBuilder.Append($"({ node.value }, { randomeNodeValue }) ");
+                stringBuilder.Append($"({node.value}, {randomeNodeValue}) ");
             }
 
             return stringBuilder.ToString();

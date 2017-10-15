@@ -50,6 +50,8 @@
     <Compile Include="src\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="src\General\HexadecimalToDecimal.cs" />
+    <Compile Include="src\Algorithms\Hashing\KnightStayProbability.cs" />
     <Compile Include="src\Algorithms\Sorting\ISort.cs" />
     <Compile Include="src\Algorithms\Sorting\QuickSort.cs" />
     <Compile Include="src\Algorithms\Sorting\TestSorts.cs" />

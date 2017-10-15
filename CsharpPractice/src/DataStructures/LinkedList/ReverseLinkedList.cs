@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Reverse a linked list.
+
+using System;
 
 namespace DataStructures
 {

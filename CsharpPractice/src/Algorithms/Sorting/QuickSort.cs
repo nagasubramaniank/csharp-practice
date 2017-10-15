@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Quick sort algorithm.
+
+using System;
 
 namespace Algorithms
 {
