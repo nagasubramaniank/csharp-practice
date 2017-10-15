@@ -47,7 +47,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="src\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="src\DataStructures\LinkedList\LinkedListNode.cs" />
+    <Compile Include="src\DataStructures\LinkedList\ReverseLinkedList.cs" />
     <Compile Include="src\Program.cs" />
   </ItemGroup>
   <ItemGroup>
