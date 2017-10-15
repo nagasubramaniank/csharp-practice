@@ -11,15 +11,15 @@ namespace Algorithms
     {
         public static void Main(string[] args)
         {
-            printMaxSubsequence(new int[] { });
-            printMaxSubsequence(new int[] { 0 });
-            printMaxSubsequence(new int[] { 1 });
-            printMaxSubsequence(new int[] { -1 });
-            printMaxSubsequence(new int[] { 3, -1, -1, 3 });
-            printMaxSubsequence(new int[] { 0, 2, -1, 3, -2, 4 });
+            PrintMaxSubsequence(new int[] { });
+            PrintMaxSubsequence(new int[] { 0 });
+            PrintMaxSubsequence(new int[] { 1 });
+            PrintMaxSubsequence(new int[] { -1 });
+            PrintMaxSubsequence(new int[] { 3, -1, -1, 3 });
+            PrintMaxSubsequence(new int[] { 0, 2, -1, 3, -2, 4 });
         }
 
-        private static void printMaxSubsequence(int[] sequence)
+        private static void PrintMaxSubsequence(int[] sequence)
         {
             int maxTill = 0, maxTillStartIndex = 0;
             int maxAll = 0, maxAllStartIndex = 0, maxAllEndIndex = -1;

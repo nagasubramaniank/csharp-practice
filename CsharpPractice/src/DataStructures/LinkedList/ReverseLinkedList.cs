@@ -16,7 +16,7 @@ namespace DataStructures
         private static void printReverseLinkedList<T>(LinkedListNode<T> head)
         {
             Console.WriteLine("Linked List: " + head);
-            Console.WriteLine("Reverse linked List: " + Reverse(head));
+            Console.WriteLine("Reverse Linked List: " + Reverse(head));
         }
 
         private static LinkedListNode<T> Reverse<T>(LinkedListNode<T> head)
