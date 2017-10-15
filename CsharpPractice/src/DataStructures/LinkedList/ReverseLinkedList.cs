@@ -6,14 +6,14 @@ namespace DataStructures
     {
         public static void Main(string[] args)
         {
-            printReverseLinkedList(LinkedListNode<int>.Prepare());
-            printReverseLinkedList(LinkedListNode<int>.Prepare(0));
-            printReverseLinkedList(LinkedListNode<int>.Prepare(0, 1));
-            printReverseLinkedList(LinkedListNode<int>.Prepare(0, 1, 2));
-            printReverseLinkedList(LinkedListNode<int>.Prepare(0, 1, 2, 3));
+            PrintReverseLinkedList(LinkedListNode<int>.Prepare());
+            PrintReverseLinkedList(LinkedListNode<int>.Prepare(0));
+            PrintReverseLinkedList(LinkedListNode<int>.Prepare(0, 1));
+            PrintReverseLinkedList(LinkedListNode<int>.Prepare(0, 1, 2));
+            PrintReverseLinkedList(LinkedListNode<int>.Prepare(0, 1, 2, 3));
         }
 
-        private static void printReverseLinkedList<T>(LinkedListNode<T> head)
+        private static void PrintReverseLinkedList<T>(LinkedListNode<T> head)
         {
             Console.WriteLine("Linked List: " + head);
             Console.WriteLine("Reverse Linked List: " + Reverse(head));

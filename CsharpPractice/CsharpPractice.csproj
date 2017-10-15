@@ -50,6 +50,8 @@
     <Compile Include="src\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="src\DataStructures\LinkedList\CloneLinkedListWithRandomReferences.cs" />
+    <Compile Include="src\DataStructures\LinkedList\LinkedListNodeWithRandomReference.cs" />
     <Compile Include="src\DataStructures\LinkedList\LinkedListNode.cs" />
     <Compile Include="src\DataStructures\LinkedList\ReverseLinkedList.cs" />
     <Compile Include="src\Program.cs" />
