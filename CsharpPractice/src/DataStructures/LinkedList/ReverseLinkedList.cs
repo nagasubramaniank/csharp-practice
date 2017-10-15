@@ -13,19 +13,19 @@ namespace DataStructures
             PrintReverseLinkedList(LinkedListNode<int>.Prepare(0, 1, 2, 3));
         }
 
-        private static void PrintReverseLinkedList<T>(LinkedListNode<T> head)
+        private static void PrintReverseLinkedList<TValue>(LinkedListNode<TValue> head)
         {
             Console.WriteLine("Linked List: " + head);
             Console.WriteLine("Reverse Linked List: " + Reverse(head));
         }
 
-        private static LinkedListNode<T> Reverse<T>(LinkedListNode<T> head)
+        private static LinkedListNode<TValue> Reverse<TValue>(LinkedListNode<TValue> head)
         {
-            LinkedListNode<T> forwardListHead = head, reverseListHead = null;
+            LinkedListNode<TValue> forwardListHead = head, reverseListHead = null;
 
             while (forwardListHead != null)
             {
-                LinkedListNode<T> forwardListNewHead = forwardListHead.next;
+                LinkedListNode<TValue> forwardListNewHead = forwardListHead.next;
                 forwardListHead.next = reverseListHead;
                 reverseListHead = forwardListHead;
                 forwardListHead = forwardListNewHead;

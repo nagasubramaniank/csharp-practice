@@ -2,18 +2,18 @@
 
 namespace DataStructures
 {
-    internal sealed class LinkedListNode<T>
+    internal sealed class LinkedListNode<TValue>
     {
-        public T value;
-        public LinkedListNode<T> next;
+        public TValue value;
+        public LinkedListNode<TValue> next;
 
-        public static LinkedListNode<T> Prepare(params T[] sequence)
+        public static LinkedListNode<TValue> Prepare(params TValue[] sequence)
         {
-            LinkedListNode<T> head = null;
+            LinkedListNode<TValue> head = null;
 
             for (int index = sequence.Length - 1; index >= 0; index--)
             {
-                head = new LinkedListNode<T> { value = sequence[index], next = head };
+                head = new LinkedListNode<TValue> { value = sequence[index], next = head };
             }
 
             return head;
@@ -23,7 +23,7 @@ namespace DataStructures
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            for (LinkedListNode<T> node = this; node != null; node = node.next)
+            for (LinkedListNode<TValue> node = this; node != null; node = node.next)
             {
                 stringBuilder.Append(node.value + " ");
             }

@@ -23,29 +23,29 @@ namespace DataStructures
             PrintCloneLinkedList(node1);
         }
 
-        private static void PrintCloneLinkedList<T>(LinkedListNodeWithRandomReference<T> originalListHead)
+        private static void PrintCloneLinkedList<TValue>(LinkedListNodeWithRandomReference<TValue> originalListHead)
         {
             Console.WriteLine("Original Linked List (Before): " + originalListHead);
 
             // Interleave nodes in cloned list in original list.
-            for (LinkedListNodeWithRandomReference<T> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next.next)
+            for (LinkedListNodeWithRandomReference<TValue> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next.next)
             {
-                LinkedListNodeWithRandomReference<T> clonedListNode = new LinkedListNodeWithRandomReference<T>(originalListNode.value, originalListNode.next);
+                LinkedListNodeWithRandomReference<TValue> clonedListNode = new LinkedListNodeWithRandomReference<TValue>(originalListNode.value, originalListNode.next);
                 originalListNode.next = clonedListNode; 
             }
 
             // Update random nodes in cloned list.
-            for (LinkedListNodeWithRandomReference<T> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next.next)
+            for (LinkedListNodeWithRandomReference<TValue> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next.next)
             {
                 originalListNode.next.random = originalListNode.random?.next;
             }
 
-            LinkedListNodeWithRandomReference<T> clonedListHead = originalListHead?.next;
+            LinkedListNodeWithRandomReference<TValue> clonedListHead = originalListHead?.next;
 
             // Separate out the cloned list from original list.
-            for (LinkedListNodeWithRandomReference<T> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next)
+            for (LinkedListNodeWithRandomReference<TValue> originalListNode = originalListHead; originalListNode != null; originalListNode = originalListNode.next)
             {
-                LinkedListNodeWithRandomReference<T> originalListNextNode = originalListNode.next.next;
+                LinkedListNodeWithRandomReference<TValue> originalListNextNode = originalListNode.next.next;
                 originalListNode.next.next = originalListNextNode?.next;
                 originalListNode.next = originalListNextNode;
             }

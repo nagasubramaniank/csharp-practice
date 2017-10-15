@@ -50,6 +50,10 @@
     <Compile Include="src\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="src\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="src\Algorithms\Sorting\ISort.cs" />
+    <Compile Include="src\Algorithms\Sorting\QuickSort.cs" />
+    <Compile Include="src\Algorithms\Sorting\TestSorts.cs" />
+    <Compile Include="src\Algorithms\Sorting\ThreeWaySort.cs" />
     <Compile Include="src\DataStructures\LinkedList\CloneLinkedListWithRandomReferences.cs" />
     <Compile Include="src\DataStructures\LinkedList\LinkedListNodeWithRandomReference.cs" />
     <Compile Include="src\DataStructures\LinkedList\LinkedListNode.cs" />
