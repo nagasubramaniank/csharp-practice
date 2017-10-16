@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Hashing
+namespace CsharpPractice.Source.Algorithms.Hashing
 {
     public static class KnightStayProbability
     {

@@ -6,7 +6,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Algorithms
+namespace CsharpPractice.Source.Algorithms.DynamicProgramming
 {
     internal static class LongestIncreasingSubsequence
     {

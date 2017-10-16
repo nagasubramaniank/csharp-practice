@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace DataStructures
+namespace CsharpPractice.Source.DataStructures.LinkedList
 {
     internal sealed class LinkedListNodeWithRandomReference<T>
     {

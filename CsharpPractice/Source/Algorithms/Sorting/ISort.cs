@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Algorithms
+namespace CsharpPractice.Source.Algorithms.Sorting
 {
     internal interface ISort<TItem> where TItem : IComparable<TItem>
     {

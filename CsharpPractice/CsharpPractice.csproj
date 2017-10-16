@@ -7,7 +7,7 @@
     <ProjectGuid>{3EA2C720-BD44-4FD1-9AB7-FA66E6467AD0}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>csharp_practice</RootNamespace>
+    <RootNamespace>CsharpPractice</RootNamespace>
     <AssemblyName>CsharpPractice</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Program</StartupObject>
+    <StartupObject>CsharpPractice.Source.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
@@ -47,26 +47,26 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="src\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
-    <Compile Include="src\Algorithms\DynamicProgramming\MakingChange.cs" />
-    <Compile Include="src\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
-    <Compile Include="src\General\HexadecimalToDecimal.cs" />
-    <Compile Include="src\Algorithms\Hashing\KnightStayProbability.cs" />
-    <Compile Include="src\Algorithms\Sorting\ISort.cs" />
-    <Compile Include="src\Algorithms\Sorting\QuickSort.cs" />
-    <Compile Include="src\Algorithms\Sorting\TestSorts.cs" />
-    <Compile Include="src\Algorithms\Sorting\ThreeWaySort.cs" />
-    <Compile Include="src\DataStructures\LinkedList\CloneLinkedListWithRandomReferences.cs" />
-    <Compile Include="src\DataStructures\LinkedList\LinkedListNodeWithRandomReference.cs" />
-    <Compile Include="src\DataStructures\LinkedList\LinkedListNode.cs" />
-    <Compile Include="src\DataStructures\LinkedList\ReverseLinkedList.cs" />
-    <Compile Include="src\Program.cs" />
+    <Compile Include="Source\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
+    <Compile Include="Source\Algorithms\DynamicProgramming\MakingChange.cs" />
+    <Compile Include="Source\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="Source\General\HexadecimalToDecimal.cs" />
+    <Compile Include="Source\Algorithms\Hashing\KnightStayProbability.cs" />
+    <Compile Include="Source\Algorithms\Sorting\ISort.cs" />
+    <Compile Include="Source\Algorithms\Sorting\QuickSort.cs" />
+    <Compile Include="Source\Algorithms\Sorting\TestSorts.cs" />
+    <Compile Include="Source\Algorithms\Sorting\ThreeWaySort.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\CloneLinkedListWithRandomReferences.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\LinkedListNodeWithRandomReference.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\LinkedListNode.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\ReverseLinkedList.cs" />
+    <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="src\HackerRank\" />
+    <Folder Include="Source\HackerRank\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

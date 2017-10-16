@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Reflection;
 
-namespace Algorithms
+namespace CsharpPractice.Source.Algorithms.Sorting
 {
     internal static class TestSorts
     {

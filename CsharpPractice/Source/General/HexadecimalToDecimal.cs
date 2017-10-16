@@ -2,7 +2,7 @@
 
 using System;
 
-namespace General
+namespace CsharpPractice.Source.General
 {
     public static class HexadecimalToDecimal
     {

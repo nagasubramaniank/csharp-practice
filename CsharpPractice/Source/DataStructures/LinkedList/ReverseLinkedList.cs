@@ -2,7 +2,7 @@
 
 using System;
 
-namespace DataStructures
+namespace CsharpPractice.Source.DataStructures.LinkedList
 {
     internal static class ReverseLinkedList
     {

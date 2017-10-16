@@ -2,7 +2,7 @@
 
 using System;
 
-namespace Algorithms
+namespace CsharpPractice.Source.Algorithms.Sorting
 {
     internal sealed class ThreeWaySort<TItem> : ISort<TItem> where TItem : IComparable<TItem>
     {

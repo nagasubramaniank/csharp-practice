@@ -6,7 +6,7 @@
 
 using System;
 
-namespace Algorithms
+namespace CsharpPractice.Source.Algorithms.DynamicProgramming
 {
     internal static class MakingChange
     {

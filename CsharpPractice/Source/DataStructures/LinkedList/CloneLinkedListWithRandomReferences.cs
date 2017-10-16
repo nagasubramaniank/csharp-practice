@@ -2,9 +2,9 @@
 
 using System;
 
-namespace DataStructures
+namespace CsharpPractice.Source.DataStructures.LinkedList
 {
-    internal sealed class CloneLinkedListWithRandomReferences
+    internal static class CloneLinkedListWithRandomReferences
     {
         public static void Main(string[] args)
         {
