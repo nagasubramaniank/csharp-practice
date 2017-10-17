@@ -53,6 +53,10 @@
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
     <Compile Include="Source\DataStructures\Deque\DequeNode.cs" />
     <Compile Include="Source\DataStructures\Deque\BrowserHistory.cs" />
+    <Compile Include="Source\DataStructures\Trie\ITrieItem.cs" />
+    <Compile Include="Source\DataStructures\Trie\SuggestEmployees.cs" />
+    <Compile Include="Source\DataStructures\Trie\Trie.cs" />
+    <Compile Include="Source\DataStructures\Trie\TrieNode.cs" />
     <Compile Include="Source\General\HexadecimalToDecimal.cs" />
     <Compile Include="Source\Algorithms\Hashing\KnightStayProbability.cs" />
     <Compile Include="Source\Algorithms\Sorting\ISort.cs" />

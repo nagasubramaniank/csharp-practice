@@ -31,7 +31,7 @@ namespace CsharpPractice.Source.DataStructures.Deque
             private int historyLength;
             private readonly int historyCapacity;
             private readonly Deque<TPage> visitList;
-            public readonly Dictionary<TPage, DequeNode<TPage>> visitDictionary;
+            private readonly Dictionary<TPage, DequeNode<TPage>> visitDictionary;
 
             public Browser(int historyCapacity)
             {
