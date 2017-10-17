@@ -50,6 +50,9 @@
     <Compile Include="Source\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="Source\DataStructures\Deque\Deque.cs" />
+    <Compile Include="Source\DataStructures\Deque\DequeNode.cs" />
+    <Compile Include="Source\DataStructures\Deque\BrowserHistory.cs" />
     <Compile Include="Source\General\HexadecimalToDecimal.cs" />
     <Compile Include="Source\Algorithms\Hashing\KnightStayProbability.cs" />
     <Compile Include="Source\Algorithms\Sorting\ISort.cs" />
