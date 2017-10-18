@@ -3,7 +3,7 @@ using System.Linq;
 
 namespace CsharpPractice.Source.DataStructures.Trie
 {
-    internal class Trie<TItem> where TItem : ITrieItem
+    internal sealed class Trie<TItem> where TItem : ITrieItem
     {
         private readonly TrieNode<TItem> rootNode = new TrieNode<TItem>();
 

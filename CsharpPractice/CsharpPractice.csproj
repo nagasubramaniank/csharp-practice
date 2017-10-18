@@ -50,11 +50,12 @@
     <Compile Include="Source\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
+    <Compile Include="Source\GoogleInterview\Array\RearrangeArrayWithSwapZero.cs" />
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
     <Compile Include="Source\DataStructures\Deque\DequeNode.cs" />
     <Compile Include="Source\DataStructures\Deque\BrowserHistory.cs" />
     <Compile Include="Source\DataStructures\Trie\ITrieItem.cs" />
-    <Compile Include="Source\DataStructures\Trie\SuggestEmployees.cs" />
+    <Compile Include="Source\DataStructures\Trie\SearchEmployees.cs" />
     <Compile Include="Source\DataStructures\Trie\Trie.cs" />
     <Compile Include="Source\DataStructures\Trie\TrieNode.cs" />
     <Compile Include="Source\General\HexadecimalToDecimal.cs" />
@@ -72,9 +73,7 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Source\HackerRank\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

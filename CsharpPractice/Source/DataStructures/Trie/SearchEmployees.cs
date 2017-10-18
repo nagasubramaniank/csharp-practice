@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Suggest employees when user enters search string.
+
+using System;
 using System.Collections.Generic;
 
 namespace CsharpPractice.Source.DataStructures.Trie

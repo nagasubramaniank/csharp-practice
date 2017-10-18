@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace CsharpPractice.Source.DataStructures.Trie
 {
-    internal class TrieNode<TItem>
+    internal sealed class TrieNode<TItem>
     {
         private readonly TrieNode<TItem>[] children = new TrieNode<TItem>[26];
         private readonly List<TItem> items = new List<TItem>();
