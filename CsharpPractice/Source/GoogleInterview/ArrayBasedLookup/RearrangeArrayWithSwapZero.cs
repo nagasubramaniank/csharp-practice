@@ -1,12 +1,10 @@
-﻿// Rearrange an array using swaps with 0.
-
-// You have two arrays src, tgt, containing two permutations of the numbers 0..n-1. You would like to rearrange src so that
-// it equals tgt. The only allowed operations is 'swap a number with 0', e.g. {1,0,2,3} -> {1,3,2,0} ("swap 3 with 0").
-// Write a program that prints to stdout the list of required operations
+﻿// We have two arrays, source and reference of size N, both containing two permutations of the numbers from 0 to N-1. The
+// only allowed operation on source array is 'Swap a number with zero'. Rearrange the source array to match with the
+// reference array using minimum operations.
 
 using System;
 
-namespace CsharpPractice.Source.GoogleInterview.Array
+namespace CsharpPractice.Source.GoogleInterview.ArrayBasedLookup
 {
     internal static class RearrangeArrayWithSwapZero
     {

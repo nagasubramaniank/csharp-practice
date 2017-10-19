@@ -50,7 +50,8 @@
     <Compile Include="Source\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
-    <Compile Include="Source\GoogleInterview\Array\RearrangeArrayWithSwapZero.cs" />
+    <Compile Include="Source\GoogleInterview\ArrayBasedLookup\ConstantTimeRandomSelection.cs" />
+    <Compile Include="Source\GoogleInterview\ArrayBasedLookup\RearrangeArrayWithSwapZero.cs" />
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
     <Compile Include="Source\DataStructures\Deque\DequeNode.cs" />
     <Compile Include="Source\DataStructures\Deque\BrowserHistory.cs" />
