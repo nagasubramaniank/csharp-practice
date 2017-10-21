@@ -7,7 +7,7 @@
 
 using System;
 
-namespace CsharpPractice.Source.GoogleInterview.ArrayBasedLookup
+namespace CsharpPractice.Source.DataStructures.Custom
 {
     internal static class ConstantTimeRandomSelection
     {

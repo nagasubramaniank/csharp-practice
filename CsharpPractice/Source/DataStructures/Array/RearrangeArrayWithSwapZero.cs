@@ -4,7 +4,7 @@
 
 using System;
 
-namespace CsharpPractice.Source.GoogleInterview.ArrayBasedLookup
+namespace CsharpPractice.Source.DataStructures.Array
 {
     internal static class RearrangeArrayWithSwapZero
     {

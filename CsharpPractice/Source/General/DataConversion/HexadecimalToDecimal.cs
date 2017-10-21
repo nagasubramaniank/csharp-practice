@@ -2,7 +2,7 @@
 
 using System;
 
-namespace CsharpPractice.Source.General
+namespace CsharpPractice.Source.General.DataConversion
 {
     public static class HexadecimalToDecimal
     {
