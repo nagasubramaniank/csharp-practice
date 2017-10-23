@@ -60,7 +60,9 @@
     <Compile Include="Source\DataStructures\Deque\Deque.cs" />
     <Compile Include="Source\DataStructures\Deque\DequeNode.cs" />
     <Compile Include="Source\DataStructures\Deque\BrowserHistory.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\CircularLinkedList.cs" />
     <Compile Include="Source\DataStructures\LinkedList\CloneLinkedListWithRandomReferences.cs" />
+    <Compile Include="Source\DataStructures\LinkedList\InsertIntoCircularLinkedList.cs" />
     <Compile Include="Source\DataStructures\LinkedList\LinkedListNodeWithRandomReference.cs" />
     <Compile Include="Source\DataStructures\LinkedList\LinkedListNode.cs" />
     <Compile Include="Source\DataStructures\LinkedList\ReverseLinkedList.cs" />
