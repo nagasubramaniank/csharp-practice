@@ -72,6 +72,8 @@
     <Compile Include="Source\DataStructures\Trie\TrieNode.cs" />
     <Compile Include="Source\General\DataConversion\HexadecimalToDecimal.cs" />
     <Compile Include="Source\General\RandomSolution\RandomGiftSequence.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P001_GradingStudents.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P002_AppleAndOrange.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
