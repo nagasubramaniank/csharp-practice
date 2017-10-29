@@ -74,6 +74,16 @@
     <Compile Include="Source\General\RandomSolution\RandomGiftSequence.cs" />
     <Compile Include="Source\HackerRank\Implementation\P001_GradingStudents.cs" />
     <Compile Include="Source\HackerRank\Implementation\P002_AppleAndOrange.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P003_Kangaroo.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P004_BetweenTwoSets.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P005_BreakingTheRecords.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P006_BirthdayChocolate.cs" />
+    <Compile Include="Source\HackerRank\Implementation\P007_DivisibleSumPairs.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P001_MultiplesOf3And5.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P002_EvenFibonacciNumbers.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P003_LargestPrimeFactor.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P004_LargestPalindromeProduct.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P005_SmallesMultiple.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
