@@ -87,6 +87,8 @@
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P006_SumSquareDifference.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P007_10001stPrime.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P008_LargestProductInASeries.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P009_SpecialPythagoreanTriplet.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P010_SummationOfPrimes.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
