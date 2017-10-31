@@ -83,7 +83,10 @@
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P002_EvenFibonacciNumbers.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P003_LargestPrimeFactor.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P004_LargestPalindromeProduct.cs" />
-    <Compile Include="Source\HackerRank\ProjectEulerPlus\P005_SmallesMultiple.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P005_SmallestMultiple.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P006_SumSquareDifference.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P007_10001stPrime.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P008_LargestProductInASeries.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>

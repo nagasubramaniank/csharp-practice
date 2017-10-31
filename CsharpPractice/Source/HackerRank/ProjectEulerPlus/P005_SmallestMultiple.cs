@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace CsharpPractice.Source.HackerRank.ProjectEulerPlus
 {
-    internal static class P005_SmallesMultiple
+    internal static class P005_SmallestMultiple
     {
         public static void Main(string[] args)
         {
