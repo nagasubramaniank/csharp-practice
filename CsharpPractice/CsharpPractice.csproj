@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Source\Algorithms\Backtracking\SudokuSolver.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\LongestIncreasingSubsequence.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MakingChange.cs" />
     <Compile Include="Source\Algorithms\DynamicProgramming\MaxiumumValueContiguousSubsequence.cs" />
@@ -89,6 +90,7 @@
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P008_LargestProductInASeries.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P009_SpecialPythagoreanTriplet.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P010_SummationOfPrimes.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P011_LargestProductInAGrid.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
