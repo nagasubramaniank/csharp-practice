@@ -38,6 +38,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -91,6 +92,8 @@
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P009_SpecialPythagoreanTriplet.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P010_SummationOfPrimes.cs" />
     <Compile Include="Source\HackerRank\ProjectEulerPlus\P011_LargestProductInAGrid.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P012_HighlyDivisibleTriangularNumber.cs" />
+    <Compile Include="Source\HackerRank\ProjectEulerPlus\P013_LargeSum.cs" />
     <Compile Include="Source\Program.cs" />
   </ItemGroup>
   <ItemGroup>
